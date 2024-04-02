@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Blog | Parth Desai',
-  author: 'Parth Desai',
+  title: 'Portifolio | Caio Gomes Braga',
+  author: 'Caio Gomes Braga',
   headerTitle: 'Mere Musings',
-  description: 'My personal blog where I share my musings',
+  description: 'My personal portifolio where I share my projects',
   snippets: 'Reuseable code snippets collected by Parth',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -11,10 +11,10 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'desaiparth2000@gmail.com',
-  github: 'https://github.com/pycoder2000',
+  email: 'caiotagb@gmail.com',
+  github: 'https://github.com/caiobraga',
   twitter: 'https://twitter.com/_ParthDesai_',
-  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
+  instagem: 'https://www.instagram.com/caio.g.braga/',
   website: 'https://parthdesai.vercel.app',
   locale: 'en-US',
   analytics: {
@@ -47,6 +47,7 @@ const siteMetadata = {
   },
   socialAccount: {
     twitter: '_ParthDesai_',
+    intagram: 'https://www.instagram.com/caio.g.braga/',
   },
 }
 
