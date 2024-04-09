@@ -58,9 +58,21 @@ function AsciiCube(props) {
   useEffect(() => {
     // Define a function to update the size based on the current window width
     function updateSize() {
-      setWidth(window.innerWidth >= 768 ? 50 : 30)
-      setheight(window.innerHeight >= 768 ? 25 : 12)
-      setK1(window.innerWidth >= 768 ? 40 : 20)
+      const { innerWidth, innerHeight } = window
+
+      if (innerWidth >= 1024) {
+        setWidth(140)
+        setheight(40)
+        setK1(40)
+      } else if (innerWidth >= 768) {
+        setWidth(100)
+        setheight(30)
+        setK1(30)
+      } else {
+        setWidth(60)
+        setheight(20)
+        setK1(20)
+      }
     }
 
     // Call the function to set the initial size based on the current window width

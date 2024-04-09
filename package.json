@@ -1,10 +1,10 @@
 {
-  "name": "parth-desai-blog",
+  "name": "caio-gomes-braga-portifolio",
   "version": "1.5.6",
   "private": true,
   "author": {
-    "name": "Parth Desai",
-    "email": "desaiparth2000@gmail.com",
+    "name": "Caio Gomes Braga",
+    "email": "caiotagb@gmail.com",
     "url": "https://musing.vercel.app/"
   },
   "scripts": {
