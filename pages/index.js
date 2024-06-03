@@ -204,14 +204,6 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
-        <div className="my-2 grid items-start gap-8">
-          <div className="group relative">
-            <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r  opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-            <div className="flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0">
-              <AsciiCube />
-            </div>
-          </div>
-        </div>
         {/*<h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest
         </h2>
